@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) ![Built with](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
+**[▶ Live demo](https://showa21.github.io/markdown-notes/)**
+
 ![markdown-notes screenshot](screenshot.png)
 
 A browser-based notes app with live Markdown preview. The Markdown parser is **written from scratch** (no libraries) and unit-tested.
