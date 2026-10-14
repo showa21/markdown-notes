@@ -1,5 +1,7 @@
 # Markdown Notes
 
+![markdown-notes screenshot](screenshot.png)
+
 A browser-based notes app with live Markdown preview. The Markdown parser is **written from scratch** (no libraries) and unit-tested.
 
 - Create, search, edit and delete notes — stored in `localStorage`
