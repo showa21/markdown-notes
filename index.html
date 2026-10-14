@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Markdown Notes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <button id="new">+ New note</button>
+  <input id="filter" type="search" placeholder="Search notes…" aria-label="Search notes">
+  <ul id="list"></ul>
+</aside>
+<main>
+  <input id="title" placeholder="Untitled" aria-label="Note title">
+  <div class="panes">
+    <textarea id="editor" aria-label="Markdown editor" placeholder="Write some **markdown**…"></textarea>
+    <article id="preview" aria-label="Preview"></article>
+  </div>
+  <footer><span id="status"></span><button id="delete" class="danger">Delete note</button></footer>
+</main>
+<script src="markdown.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
